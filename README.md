@@ -45,6 +45,7 @@ sudo chmod -R 777 storage
 
 5. Use the make commands to build the containers, run migrations and init the app:
 ```bash
+cd ..
 make setup && make data
 ```
 6. Go to http://localhost:9000 and just register yourself!
